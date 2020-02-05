@@ -1,0 +1,10 @@
+require "dsa/exercises/two_sum_problem"
+require "dsa/exercises/contains_duplicate"
+require "dsa/exercises/best_time_to_buy_and_sell_stock"
+require "dsa/exercises/valid_anagram"
+require "dsa/exercises/valid_parentheses"
+
+require "dsa/binary_tree"
+require "dsa/double_linked_list"
+require "dsa/linked_list"
+require "dsa/stack"
