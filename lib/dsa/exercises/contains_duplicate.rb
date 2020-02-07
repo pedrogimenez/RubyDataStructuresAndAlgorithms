@@ -30,8 +30,8 @@ module DSA
         false
       end
 
-      # O(2n) solution - Leetcode: Passed (48ms, 11.5 MB)
-      def o2n(numbers)
+      # O(n) solution - Leetcode: Passed (48ms, 11.5 MB)
+      def on(numbers)
         sorted_numbers = numbers.sort
 
         sorted_numbers.each_with_index do |number, index|
@@ -42,7 +42,7 @@ module DSA
       end
 
       # O(n) solution - Leetcode: Passed (40 ms, 13.2 MB)
-      def on(numbers)
+      def on_2(numbers)
         hash_table = {}
 
         numbers.each do |number|

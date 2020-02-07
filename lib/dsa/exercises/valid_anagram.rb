@@ -26,8 +26,8 @@ module DSA
         sorted_word == sorted_another_word
       end
 
-      # O(2n) solution - Leetcode: Passed (100ms, 16.4 MB)
-      def o2n(word, another_word)
+      # O(n) solution - Leetcode: Passed (100ms, 16.4 MB)
+      def on(word, another_word)
         hash_table_one = word.chars.each_with_object({}) do |char, memo|
           memo[char] ||= 0
           memo[char] += 1

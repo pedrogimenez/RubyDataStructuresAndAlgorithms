@@ -28,8 +28,8 @@ module DSA
         end
       end
 
-      # O(2n) solution - Leetcode: Passed (40ms, 10.2 MB)
-      def o2n(numbers, target)
+      # O(n) solution - Leetcode: Passed (40ms, 10.2 MB)
+      def on(numbers, target)
         hash_table = {}
 
         numbers.each_with_index do |number, index|
@@ -44,7 +44,7 @@ module DSA
       end
 
       # O(n) solution - Leetcode: Passed (28ms, 9.9 MB)
-      def on(numbers, target)
+      def on_2(numbers, target)
         hash_table = {}
 
         numbers.each_with_index do |number, index|

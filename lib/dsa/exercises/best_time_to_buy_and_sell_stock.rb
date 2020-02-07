@@ -34,8 +34,8 @@ module DSA
         max_profit
       end
 
-      # O(n) solution - Leetcode: Passed (480ms, 9.9 MB)
-      def on(prices)
+      # O(n2) solution - Leetcode: Passed (480ms, 9.9 MB)
+      def on2_2(prices)
         max_profit = 0
 
         return max_profit if prices.empty?
