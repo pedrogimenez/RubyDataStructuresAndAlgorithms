@@ -38,6 +38,10 @@ Lately, I've been toying with data structures, algorithms and puzzles. That's wh
 * [Implementation][9]
 * [Leetcode][10]
 
+#### Product of Array Except Self
+* [Implementation][11]
+* [Leetcode][12]
+
 [1]: lib/dsa/exercises/two_sum_problem.rb
 [2]: https://leetcode.com/problems/two-sum/
 [3]: lib/dsa/exercises/contains_duplicate.rb
@@ -48,6 +52,8 @@ Lately, I've been toying with data structures, algorithms and puzzles. That's wh
 [8]: https://leetcode.com/problems/valid-anagram/
 [9]: lib/dsa/exercises/valid_parentheses.rb
 [10]: https://leetcode.com/problems/valid-parentheses/
+[11]: lib/dsa/exercises/product_of_array_except_self.rb
+[12]: https://leetcode.com/problems/product-of-array-except-self/
 [20]: lib/dsa/linked_list.rb
 [21]: lib/dsa/double_linked_list.rb
 [22]: lib/dsa/binary_tree.rb
