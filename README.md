@@ -18,11 +18,25 @@ Lately, I've been toying with data structures, algorithms and puzzles. That's wh
 
 ### Sequences
 
-* Two sum: [Implementation][1], [Leetcode][2]
-* Contains Duplicate: [Implementation][3], [Leetcode][4]
-* Best Time to Buy and Sell Stock: [Implementation][5], [Leetcode][6]
-* Valid Anagram: [Implementation][7], [Leetcode][8]
-* Valid Parentheses: [Implementation][9], [Leetcode][10]
+#### Two sum
+* [Implementation][1]
+* [Leetcode][2]
+
+#### Contains Duplicate
+* [Implementation][3]
+* [Leetcode][4]
+
+#### Best Time to Buy and Sell Stock
+* [Implementation][5]
+* [Leetcode][6]
+
+#### Valid Anagram
+* [Implementation][7]
+* [Leetcode][8]
+
+#### Valid Parentheses
+* [Implementation][9]
+* [Leetcode][10]
 
 [1]: lib/dsa/exercises/two_sum_problem.rb
 [2]: https://leetcode.com/problems/two-sum/
