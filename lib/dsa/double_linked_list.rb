@@ -1,5 +1,7 @@
 module DSA
   class DoubleLinkedList
+    attr_reader :head, :tail
+
     def initialize
       @head = nil
       @tail = nil
@@ -17,17 +19,27 @@ module DSA
         @tail&.next = node
         @tail = node
       end
+
+      node
     end
 
-    # O(n)
-    def remove(data)
-      node = build_node(data)
-
-      current_node = @head
-
-      while current_node && current_node != node do
-        current_node = current_node.next
+    # O(1)
+    def append_node(node)
+      if @head.nil?
+        @head = node
+        @tail = node
+      else
+        node.prev = @tail
+        @tail&.next = node
+        @tail = node
       end
+
+      node
+    end
+
+    # O(1)
+    def remove_node(node)
+      current_node = node
 
       if current_node.prev
         current_node.prev.next = current_node.next
@@ -40,6 +52,27 @@ module DSA
       else
         @tail = current_node.prev
       end
+
+      current_node
+    end
+
+    # O(n)
+    def remove(data)
+      node = build_node(data)
+
+      current_node = @head
+
+      while current_node && current_node != node do
+        current_node = current_node.next
+      end
+
+      remove_node(current_node)
+    end
+
+    def move_to_end(node)
+      return node if node == @tail
+      remove_node(node)
+      append_node(node)
     end
 
     def to_a
