@@ -4,6 +4,7 @@ require "dsa/exercises/best_time_to_buy_and_sell_stock"
 require "dsa/exercises/valid_anagram"
 require "dsa/exercises/valid_parentheses"
 require "dsa/exercises/product_of_array_except_self"
+require "dsa/exercises/search_2d_matrix"
 
 require "dsa/binary_tree"
 require "dsa/double_linked_list"

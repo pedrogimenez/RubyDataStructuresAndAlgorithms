@@ -42,6 +42,10 @@ Lately, I've been toying with data structures, algorithms and puzzles. That's wh
 * [Implementation][11]
 * [Leetcode][12]
 
+#### Search a 2D Matrix
+* [Implementation][13]
+* [Leetcode][14]
+
 [1]: lib/dsa/exercises/two_sum_problem.rb
 [2]: https://leetcode.com/problems/two-sum/
 [3]: lib/dsa/exercises/contains_duplicate.rb
@@ -54,6 +58,8 @@ Lately, I've been toying with data structures, algorithms and puzzles. That's wh
 [10]: https://leetcode.com/problems/valid-parentheses/
 [11]: lib/dsa/exercises/product_of_array_except_self.rb
 [12]: https://leetcode.com/problems/product-of-array-except-self/
+[13]: lib/dsa/exercises/search_2d_matrix.rb
+[14]: https://leetcode.com/problems/search-a-2d-matrix/
 [20]: lib/dsa/linked_list.rb
 [21]: lib/dsa/double_linked_list.rb
 [22]: lib/dsa/binary_tree.rb
