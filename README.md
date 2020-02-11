@@ -50,6 +50,10 @@ Lately, I've been toying with data structures, algorithms and puzzles. That's wh
 * [Implementation][15]
 * [Leetcode][16]
 
+#### LRU Cache
+* [Implementation][17]
+* [Leetcode][18]
+
 [1]: lib/dsa/exercises/two_sum_problem.rb
 [2]: https://leetcode.com/problems/two-sum/
 [3]: lib/dsa/exercises/contains_duplicate.rb
@@ -66,6 +70,8 @@ Lately, I've been toying with data structures, algorithms and puzzles. That's wh
 [14]: https://leetcode.com/problems/search-a-2d-matrix/
 [15]: lib/dsa/exercises/top_k_frequent_words.rb
 [16]: https://leetcode.com/problems/top-k-frequent-words/
+[17]: lib/dsa/exercises/lru_cache.rb
+[18]: https://leetcode.com/problems/lru-cache/
 [20]: lib/dsa/linked_list.rb
 [21]: lib/dsa/double_linked_list.rb
 [22]: lib/dsa/binary_tree.rb
